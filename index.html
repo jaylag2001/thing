@@ -4,8 +4,10 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+       <header>
         <ul>
           <li><a class="active" href="#">Home</a></li>
             <li class="dropdown">
@@ -17,15 +19,142 @@
             </div>
           </li>
         </ul>
+        <div class="log">
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/myiadavis5?lang=en" class="fa fa-twitter"></a>
-<a href="https://plus.google.com/u/0/115511442007504366058" class="fa fa-google"></a>
-<a href="https://www.linkedin.com/in/igor-tarducci-6870a111" class="fa fa-linkedin"></a>
-<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-<a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
-<a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
-<a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
-<a href="https://shadowbeastclaw.tumblr.com/" class="fa fa-tumblr"></a>
-<a href="https://www.yahoo.com/" class="fa fa-yahoo"></a>
+        <a href="https://twitter.com/myiadavis5?lang=en" class="fa fa-twitter"></a><br>
+        <a href="https://plus.google.com/u/0/115511442007504366058" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/igor-tarducci-6870a111" class="fa fa-linkedin"></a><br>
+        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a><br>
+        <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+        <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a><br>
+        <a href="https://shadowbeastclaw.tumblr.com/" class="fa fa-tumblr"></a>
+        <a href="https://www.yahoo.com/" class="fa fa-yahoo"></a>
+        </div><br>
+    </header>
+    <div class="log">
+    <h2>Log In</h2>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+   <div class="two"></div>
+    <div class="full-width">
+                <div class="container">
+                    <article>
+                      <div class="content">
+                        <h2>Beautiful Earth</h2>
+                        <div class="aside">
+                        <img src="img/hot.jpeg"/>
+                          <p>What a wonderful joy it is to see,
+                            The beauty of nature and its majesty.
+                            Everything blends, entwines and embraces,
+                            Spaced precisely in their designated places.
+                            What a marvel to see, I wish I were a bee,
+                            Flying free,
+                            Smelling life’s roses, no particular place to be.
+                            How can it be, such a marvel to see
+                            When it’s possessed by such as you and me?
+                            Ours to have, cherish, and protect,
+                            Not to pollute, take for granted, nor neglect.
+                            Enjoy the earth, treat it kind
+                            After all it is ours, yes… yours and mine.
+                          </p>
+                       </div>
+                       </div>
+                       <div class="side">
+                       <iframe width="550" height="345" src="https://youtu.be/CFrP6QfbC2g">
+                       </iframe><br>
+                       <a href="https://youtu.be/CFrP6QfbC2g">Link to the video</a><br>
+                       <a href="#">Click here for more info</a>
+                       </div>
+                    </article>
+                    <article>
+                      <div class="content">
+                        <h2>The Beach</h2>
+                        <div class="aside">
+                        <img src="img/be.jpeg"/>
+                        <p>To the beach, my dog and I run, 
+                          Play catch frisbees, just for fun. 
+                          Umbrella's to block the sun, 
+                          Waves crash upon the sand. 
+                          My dog chases gulls that try to land. Sky so blue, sand so white, 
+                          My dog and I, were up at daylight. 
+                          Winds are warm and blowing slight, 
+                          Ocean sprays, dog strays, 
+                          Sand blows, through our toes. It gets cool, the sun goes down, 
+                          My dog and I, head back to town. 
+                          It's time we leave the beach to rest. 
+                          After all, we were just a guest. 
+                          All the birds have flown away. 
+                          We will come back, another day. 
+                          Just me and my dog, to play. 
+                        </p>
+                        </div>
+                        </div>
+                        <div class="side">
+                        <iframe width="550" height="345" src="https://www.youtube.com/watch?v=QBa-e45o6eM">
+                        </iframe><br>
+                        <a href="https://www.youtube.com/watch?v=QBa-e45o6eM">Link to the video</a><br>
+                        <a href="#">Click here for more info</a>
+                        </div>
+                    </article>
+                    
+                </div>
+              </div>
+              <div id="grad1"></div>
+             <div class="footer">
+            <div class="full-width">
+            <div class="container">
+                <p><a href="about&contact.html"><strong>About us & Contact</strong><br></a>
+                <strong>Follow us</strong><br>
+                <a href="https://www.facebook.com/jayla.gaines.1">Facebook<br></a>
+                <a href="https://twitter.com/Jae_Day6">Twitter<br></a>
+                <a href="https://www.pinterest.com/jaylag2001/">Pinterest<br></a>
+                <a href="https://www.instagram.com/shadowbeastclaws/">Instagram<br></a>
+                <a href="https://www.snapchat.com/">Snapchat<br></a>
+                <a href="https://shadowbeastclaw.tumblr.com/">Tumblr<br></a>
+                <strong>Copyright 2017</strong>
+                </p>
+            </div>
+            </div>
+            <div class="two"></div>
+        </div>
     </body>
 </html>
