@@ -461,9 +461,28 @@ article img {
     color: white;
     font-family: cursive;
  }
+.three {
+     height: 400px;
+     width: 100%;
+     background-color:black;
+     background-image: url(../img/kh.jpeg);
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: 50% 25%; 
+ }
 
-
-
+.right img {
+  
+}
+.left {
+  width: 40%;
+  text-align: center;
+}
+.right {
+  width: 40%;
+  text-align: center;
+  float: right;
+}
 
 
 
